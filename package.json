@@ -1,0 +1,22 @@
+{
+  "name": "jsx-minecraft",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild app.tsx --bundle --external:rcon-client --outfile=bundle.mjs --format=esm",
+    "start": "node bundle.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "esbuild": "^0.19.5"
+  },
+  "dependencies": {
+    "preact": "^10.18.1",
+    "rcon-client": "^4.2.3"
+  }
+}

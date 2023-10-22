@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+
+    "jsx": "react",
+    "jsxFactory": "mc",
+    "jsxFragmentFactory": "Fragment"
+  },
+  "include": ["./"]
+}
