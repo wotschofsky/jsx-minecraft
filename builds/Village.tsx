@@ -1,9 +1,10 @@
 import { mc } from "../utils.js";
+import { McFC } from "../types.js";
 import Fragment from "../components/Fragment.js";
 import Grassland from "./Grassland.js";
 import House from "../builds/House.js";
 
-const Village = () => (
+const Village: McFC = () => (
   <>
     <Grassland x1={-40} y={0} z1={-40} x2={40} z2={40} />
 
